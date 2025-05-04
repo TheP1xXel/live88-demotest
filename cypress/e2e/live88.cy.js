@@ -24,5 +24,6 @@ describe('Live88 check visible open mini games', () => {
     cy.get('iframe').should('be.visible'); // проверка на видимость iframe
     
     
+    
   });
 });
