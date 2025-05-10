@@ -1,3 +1,4 @@
+//TEST #1
 describe('Olybet test task for training', () => {
   // Подавляем ошибку postMessage и 401, чтобы Cypress не падал
   before(() => {
