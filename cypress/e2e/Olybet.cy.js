@@ -23,7 +23,7 @@ describe('Olybet test task for training', () => {
     // Проверка, что баннер исчез
     cy.get('#onetrust-banner-sdk', { timeout: 10000 }).should('not.exist');
 
-    // Проверка и клик по элементу (если он есть)
+    // Проверка и клик по элементу
     cy.get('div[data-v-1cef3f8c][data-v-2440044b][class="h-full font-montserrat vertical-scroll"]', { timeout: 20000 })
       .should('be.visible')
       .click();
