@@ -5,6 +5,6 @@ describe('Test tests for Booking', () => {
    cy.get('button[id="onetrust-accept-btn-handler"]')
    .should('be.visible'); // проверка
    cy.wait(3000);// ждём загрузку
-   cy.get('button[id="onetrust-accept-btn-handler"]').click() // клик по кнопке
+   cy.get('button[id="onetrust-accept-btn-handler"]').click() // клик по кнопке 
   });
 });
